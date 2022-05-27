@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtIdGrupo"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese el id"
+                android:layout_gravity="left"/>
+
+            <Button
+                android:id="@+id/btnBuscarGrupo"
+                android:layout_width="171sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:backgroundTint="@color/purple_200"
+                android:text="Buscar" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtNombreGrupo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el nombre del grupo"
+            android:layout_gravity="left"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spGruposTutores"/>
+        <Button
+            android:id="@+id/btnIngresarGrupo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Verde"
+            android:text="Agregar" />
+
+        <Button
+            android:id="@+id/btnEditarGrupo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="Editar" />
+
+        <Button
+            android:id="@+id/btnEliminarGrupo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/rojo"
+            android:text="Eliminar" />
+
+        <Button
+            android:id="@+id/btnResetGrupo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Gris"
+            android:text="Reset" />
+    </LinearLayout>
+</LinearLayout>

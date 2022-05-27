@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.proyectofinal.fragments.HomeFragment"
+        tools:layout="@layout/fragment_home"
+        android:label="AstCademic"/>
+    <fragment
+        android:id="@+id/nav_alumnos"
+        android:name="com.example.proyectofinal.fragments.AgregarFragment"
+        android:label="Alumnos"
+        tools:layout="@layout/fragment_agregar"/>
+    <fragment
+        android:id="@+id/nav_maestros"
+        android:name="com.example.proyectofinal.fragments.MaestrosFragment"
+        android:label="MaestrosFragment"
+        tools:layout="@layout/fragment_maestros"/>
+    <fragment
+        android:id="@+id/nav_padres"
+        android:name="com.example.proyectofinal.fragments.PadresFragment"
+        android:label="Padres"
+        tools:layout="@layout/fragment_padres"/>
+    <fragment
+        android:id="@+id/nav_tutores"
+        android:name="com.example.proyectofinal.fragments.TutoresFragment"
+        android:label="Tutores"
+        tools:layout="@layout/fragment_tutores"/>
+    <fragment
+        android:id="@+id/nav_grupos"
+        android:name="com.example.proyectofinal.fragments.GruposFragment"
+        android:label="Grupos"
+        tools:layout="@layout/fragment_grupos"/>
+    <fragment
+        android:id="@+id/nav_act"
+        android:name="com.example.proyectofinal.fragments.ActividadesFragment"
+        android:label="Actividades"
+        tools:layout="@layout/fragment_actividades"/>
+    <fragment
+        android:id="@+id/nav_calif"
+        android:name="com.example.proyectofinal.fragments.CalifFragment"
+        android:label="Calificaciones"
+        tools:layout="@layout/fragment_calif" />
+</navigation>

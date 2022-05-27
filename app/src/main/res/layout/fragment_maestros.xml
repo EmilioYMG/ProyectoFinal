@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtIdMestro"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese el id"
+                android:layout_gravity="left"/>
+
+            <Button
+                android:id="@+id/btnBuscarMaestro"
+                android:layout_width="171sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:backgroundTint="@color/purple_200"
+                android:text="Buscar" />
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtNombreMaestro"
+            android:hint="Ingrese el nombre"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtEmailMaestro"
+            android:hint="Ingrese el e-mail"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtTelefonoMaestro"
+            android:hint="Ingrese el telefono"/>
+        <Button
+            android:id="@+id/btnIngresarMaestro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Verde"
+            android:text="Agregar" />
+
+        <Button
+            android:id="@+id/btnEditarMaestro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="Editar" />
+
+        <Button
+            android:id="@+id/btnEliminarMaestro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/rojo"
+            android:text="Eliminar" />
+
+        <Button
+            android:id="@+id/btnResetMaestro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Gris"
+            android:text="Reset" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

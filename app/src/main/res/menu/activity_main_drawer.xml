@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/hogar"
+            android:title="@string/menu_home" />
+    </group>
+    <item android:title="Alumnado">
+        <menu>
+            <item
+                android:id="@+id/nav_alumnos"
+                android:icon="@drawable/alumno"
+                android:title="Alumnos" />
+            <item
+                android:id="@+id/nav_grupos"
+                android:icon="@drawable/grupo"
+                android:title="Grupos"/>
+            <item
+                android:id="@+id/nav_padres"
+                android:title="Padres"
+                android:icon="@drawable/padre"/>
+        </menu>
+    </item>
+
+    <item android:title="Profesorado">
+        <menu>
+            <item
+                android:id="@+id/nav_act"
+                android:title="Actividades"
+                android:icon="@drawable/lista"/>
+            <item
+                android:id="@+id/nav_calif"
+                android:title="Calificaciones"
+                android:icon="@drawable/calificaciones"/>
+            <item
+                android:id="@+id/nav_maestros"
+                android:title="Maestros"
+                android:icon="@drawable/maestro"/>
+            <item
+                android:id="@+id/nav_tutores"
+                android:title="Tutores"
+                android:icon="@drawable/tutor"/>
+        </menu>
+
+    </item>
+
+
+</menu>

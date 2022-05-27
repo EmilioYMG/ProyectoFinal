@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtId"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el id"
+            android:layout_gravity="left"/>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/swtEditar"
+            android:layout_gravity="center"
+            android:text="Edición "/>
+        <Button
+            android:id="@+id/btnBuscar"
+            android:layout_width="128sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:backgroundTint="@color/purple_200"
+            android:text="Buscar" />
+
+
+    </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtNumLista"
+            android:hint="Ingrese el numero de lista"/>
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNombre"
+        android:hint="Ingrese el nombre"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtApePa"
+        android:hint="Ingrese el apellido paterno"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtApeMa"
+        android:hint="Ingrese el apellido materno"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtEmail"
+        android:hint="Ingrese el e-mail"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtGrupos"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:text="Grupo"
+                android:textSize="20sp"
+                android:layout_gravity="left"/>
+            <TextView
+                android:id="@+id/txtGrupoBuscar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" "
+                android:textSize="15sp"/>
+
+
+            <Spinner
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spGrupos"
+                android:layout_gravity="right"
+                android:gravity="right"/>
+
+        </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="50sp"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="150sp"
+               android:layout_height="wrap_content"
+               android:text="Padre o tutor"
+               android:textSize="20sp"/>
+           <TextView
+               android:id="@+id/txtPadreBuscar"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:text=" "
+               android:textSize="15sp"/>
+           <Spinner
+               android:layout_width="171dp"
+               android:layout_height="wrap_content"
+               android:id="@+id/spPadre"/>
+       </LinearLayout>
+
+        <Button
+            android:id="@+id/btnIngresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Verde"
+            android:text="Agregar" />
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="Editar" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/rojo"
+            android:text="Eliminar" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Gris"
+            android:text="Reset" />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
